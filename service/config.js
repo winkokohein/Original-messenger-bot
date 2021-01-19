@@ -21,4 +21,4 @@ const ENV_VARS = [
     appUrl: process.env.APP_URL,
 
     verifyToken: process.env.VERIFY_TOKEN
-  };
+  }; 
