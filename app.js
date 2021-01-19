@@ -40,7 +40,7 @@ app.post('/webhook', (req, res) => {
 
 });
 
-// listen for requests :)
+// listen for requests
 var listener = app.listen(config.port, function() {
   console.log("Your app is listening on port " + listener.address().port);
 
